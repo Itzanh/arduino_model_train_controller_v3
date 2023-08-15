@@ -1,0 +1,30 @@
+{
+    "db": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "model_train",
+        "password": "model_train",
+        "dbname": "model_train_v3"
+    },
+    "server": {
+        "portControllers": 4652,
+        "portWebSocket": 4653,
+        "hashIterations": 24000,
+        "tokenExpirationHours": 48,
+        "maxLoginAttemps": 3,
+        "switchingMaximumAttempts": 3,
+        "webSecurity": {
+            "readTimeoutSeconds": 60,
+            "writeTimeoutSeconds": 60,
+            "maxLimitApiQueries": 1000,
+            "maxHeaderBytes": 50000,
+            "maxRequestBodyLength": 24000000,
+            "maxLengthWebSocketMessage": 24000000
+        },
+        "tls": {
+            "useTLS": false,
+            "crtPath": "./certificates/fullchain.pem",
+            "keyPath": "./certificates/privkey.pem"
+        }
+    }
+}

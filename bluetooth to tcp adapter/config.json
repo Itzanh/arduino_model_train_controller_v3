@@ -1,0 +1,19 @@
+{
+    "server": {
+        "host": "127.0.0.1",
+        "port": 4652
+    },
+    "serial": [{
+        "enabled": true,
+        "serialPort": "COM10",
+        "baud": 57600
+    }, {
+        "enabled": true,
+        "serialPort": "COM13",
+        "baud": 57600
+    }, {
+        "enabled": false,
+        "serialPort": "COM15",
+        "baud": 57600
+    }]
+}

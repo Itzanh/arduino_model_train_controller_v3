@@ -1,0 +1,6 @@
+{
+    "websocket": {
+        "port": 4653,
+        "path": ""
+    }
+}
